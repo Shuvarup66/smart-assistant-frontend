@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://smart-assistant-backend-3zas.onrender.com", {
+      const res = await fetch("https://smart-assistant-backend.onrender.com/ask-ai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
