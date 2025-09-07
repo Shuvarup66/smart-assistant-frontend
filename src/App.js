@@ -17,7 +17,7 @@ function App() {
    
 
     try {
-      const res = await fetch("https://smart-assistant-backend-production.up.railway.app/ask-ai", {
+      const res = await fetch("https://smart-assistant-backend-3zas.onrender.com/ask-ai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
