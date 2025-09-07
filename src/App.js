@@ -19,7 +19,7 @@ function App() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
-        mode: "no-cors",
+        
       });
       const data = await res.json();
 
