@@ -14,6 +14,8 @@ function App() {
     setQuestion("");
     setLoading(true);
 
+   
+
     try {
       const res = await fetch("https://smart-assistant-backend.onrender.com/ask-ai", {
         method: "POST",
